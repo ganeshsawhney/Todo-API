@@ -7,9 +7,8 @@ var sequelize = new Sequelize(undefined, undefined, undefined, {
 var Todo = sequelize.define('todo', {
 	description: {
 		type: Sequelize.STRING,
-		allowNull: false,//Without desc dont insert
+		allowNull: false,
 		validate: {
-			notEmpty: true,//string cant be empty
 			len: [1, 250]
 		}
 	},

@@ -1,18 +1,18 @@
 {
   "name": "todo-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ganesh Sawhney",
-  "license": "BSD-2-Clause",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "~4.13.3",
-    "body-parser": "~1.13.3",
-    "underscore": "~1.8.3",
-    "sequelize": "~3.5.1",
-    "sqlite3": "~3.0.10"
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "sequelize": "^3.5.1",
+    "sqlite3": "^3.0.10",
+    "underscore": "^1.8.3"
   }
 }
